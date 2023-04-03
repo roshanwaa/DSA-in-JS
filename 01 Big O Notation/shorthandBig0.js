@@ -4,4 +4,12 @@ function logAtMost5(n) {
   }
 }
 
-logAtMost5(1000000);
+// logAtMost5(1000000);
+
+let instructor = {
+  firstName: 'Kelly',
+  isInstructor: true,
+  favoriteNumbers: [1, 2, 3, 4],
+};
+
+Object.keys(instructor);
