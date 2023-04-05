@@ -22,7 +22,7 @@ function addUpto(n) {
 }
 
 var time1 = performance.now();
-addUpto(10000000000);
+addUpto(1000000000000000000);
 // addUpTo(10000000000);
 
 var time2 = performance.now();
