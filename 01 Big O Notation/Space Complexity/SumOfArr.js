@@ -32,7 +32,7 @@ function sumOfArr(arr) {
 }
 
 // ! O(n) space!
-function double(arr) {
+function doubleTheArr(arr) {
   let newArr = [];
   for (let i = 0; i < arr.length; i++) {
     newArr.push(2 * arr[i]);
@@ -45,4 +45,7 @@ function double(arr) {
 // var myVariable = 14;
 
 // logSizeInBytes('arr', myVariable);
-logSizeInBytes('arr', sumOfArr([1, 2, 3, 4, 5]));
+console.log(sumOfArr([1, 2, 3, 4, 5]));
+logSizeInBytes('sumOfArr', sumOfArr([1, 2, 3, 4, 5]));
+console.log(doubleTheArr([1, 2, 3, 4, 5]));
+logSizeInBytes('doubleTheArr', doubleTheArr([1, 2, 3, 4, 5]));
