@@ -31,6 +31,15 @@ function sumOfArr(arr) {
   return total;
 }
 
+// ! O(n) space!
+function double(arr) {
+  let newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    newArr.push(2 * arr[i]);
+  }
+  return newArr; //n numbers
+}
+
 // var myVariable = { boolean: true, number: 1, string: 'a', array: [1, 2, 3] };
 // var myVariable = 'singhsd;kfnnfk';
 // var myVariable = 14;
