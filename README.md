@@ -1,4 +1,4 @@
-##DSA-in-JS: Data Structures and Algorithms in JavaScript
+## DSA-in-JS: Data Structures and Algorithms in JavaScript
 
 
 DSA-in-JS is your comprehensive guide to mastering Data Structures and Algorithms (DSA) in JavaScript. This repository is designed to empower you with the skills and knowledge needed to analyze code's time and space complexity using Big O notation, explore recursion, develop problem-solving strategies, understand programming patterns, and implement a wide range of algorithms and data structures in JavaScript.
